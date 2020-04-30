@@ -9,6 +9,8 @@ $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
 # Inherit from RMX1921 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
+PIXYS_BUILD_TYPE := OFFICIAL
+DEVICE_MAINTAINERS = "rahulhingve"
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
